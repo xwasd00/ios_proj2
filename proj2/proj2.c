@@ -171,7 +171,7 @@ void init_semaphores(){
 		W = get_number(argv[5]);
 		if(W < 20 || W > 2000){
 			fprintf(stderr, "wrong W = %s\n", argv[5]);
-			fprintf(stderr, "W >= 0 && W <= 2000\n");
+			fprintf(stderr, "W >= 20 && W <= 2000\n");
 			return 1;
 		}
 		C = get_number(argv[6]);
